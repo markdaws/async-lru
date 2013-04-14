@@ -1,0 +1,19 @@
+{
+  "name": "async-lru",
+  "version": "0.1.0",
+  "description": "A simple LRU cache that supports async natured items",
+  "main": "index.js",
+  "dependencies": {
+    "async": "0.2.6"
+  },
+  "devDependencies": {
+    "mocha": "1.8.1",
+    "should": "1.2.1"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha -R spec ./tests"
+  },
+  "repository": "",
+  "author": "Mark Dawson",
+  "license": "MIT"
+}
